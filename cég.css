@@ -1,0 +1,65 @@
+body{
+    background-color:black;
+    color:white;
+}
+#menu ul{
+  list-style-type:none;
+  margin:0;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  
+}
+#menu a{
+  text-decoration:none;
+  color:white;
+  margin: 30px;
+  
+}
+.a{
+  list-style-image: none;
+}
+ul {
+    list-style-image:url('nyil.jpg');
+  }
+h1{
+  text-align: center;
+}
+.egy{
+  width: 50px;
+  height: auto;
+}
+.egy{
+  margin-left: 100px;
+
+}
+.harom{
+  margin-right: 100px;
+}
+.resz{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.tartalom{
+  border-style: solid;
+  border-top: 1px;
+  border-right: none;
+  border-bottom: none;
+  border-color: red;
+}
+#tartalom2{
+  display:grid;
+  grid-template-columns: 1fr;
+  border-style: solid;
+  border-bottom: 1px;
+  border-top: none;
+  border-color: red;
+  border-right: none;
+  border-left:none;
+}
+#tartalom h1{
+  border-style: solid;
+  border-top: none;
+  
+}
